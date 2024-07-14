@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(241, 214, 146);
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+#btn{
+    width: 50%;
+    height: 30px;
+  background-color: brown;
+  outline: none;
+  border: none;
+  margin: 0.2rem;
+}
+#txt{
+    width: 70%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+#items{
+    border-radius: 1rem;
+border: none;
+    display: none;
+}
+ul li{ 
+    margin: 0.4rem;
+       font-size: 1.5rem;
+    padding: 0.3rem 2rem;
+    border: 2px solid rgb(133, 129, 129);
+    border-radius: 1rem;
+}
+.removeItem{
+
+justify-self: self-end;
+    margin-left: 12rem;
+    border-radius: 2rem;
+    padding: 0.3rem 1rem;
+    background-color: crimson;
+}
